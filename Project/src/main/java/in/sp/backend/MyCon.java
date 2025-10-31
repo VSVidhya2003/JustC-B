@@ -62,7 +62,28 @@ public class MyCon {
     public String showInterstellar() {
         return "movie-details"; // JSP name
     }
+    @GetMapping("/PVR Cinemas")
+    public String showTh() {
+        return "seat-selection"; // JSP name
+    }
+    @GetMapping("/INOX")
+    public String showAr() {
+        return "seat-selection"; // JSP name
+    }
+    @GetMapping("/AGS Cinemas")
+    public String showEr() {
+        return "seat-selection"; // JSP name
+    }
+    @GetMapping("/SPI Sathyam")
+    public String showRr() {
+        return "seat-selection"; // JSP name
+    }
     
+    @GetMapping("/booking")
+    public String showBo() {
+        return "booking"; // JSP name
+    }
+
     
     
     
